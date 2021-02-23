@@ -1,0 +1,6 @@
+Testes funcionais são também conhecidos como testes "Caixa Preta", isso pois esses testes são escritos com base apenas na
+interface do sistema, não tendo conhecimento sobre a implementação do sistema. Já testes de unidade podem ser feitos utilizando-se tanto técnicas de Caixa Branca quanto de Caixa preta, vai depender
+se o desenvolvedor tem acesso ou não a implementação no desenvolvimento do teste.
+
+Além disso testes funcionais testam uma funcionalidade, podem ser mais amplos, já testes de unidade testam apenas
+uma pequena unidade do sistema.
