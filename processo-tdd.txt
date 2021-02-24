@@ -1,0 +1,8 @@
+Processo semelhante ao processo TDD envolvendo apenas os testes de unidade. Diferentemente dos testes de unidade, nesse caso
+inicia-se o processo criando-se testes funcionais para determinada funcionalidade do ponto de vista do usuário. Ao rodar o
+teste ele deve falhar, quando falha devemos iniciar o desenvolvimento da escrita do código de produção para que o teste passe.
+Como estamos utilizando o TDD, devemos seguir criando testes de unidade para poder planejar melhor a aplicação,
+que vão falhar, e a partir disso, implementar o código minimo da aplicação. Com o código minimo escrito, devemos verificar
+se alguma refatoração será necessária nos testes de unidade e no código da aplicação. Com o código de produção escrito,
+verificamos novamente se o teste funcional passa. Em caso positivo verificamos se o teste funcional ou o código da aplicação
+ou os testes de unidade precisam de alguma refatoração. Se estiver tudo certo, podemos iniciar um novo ciclo.
